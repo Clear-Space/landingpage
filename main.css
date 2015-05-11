@@ -1,0 +1,167 @@
+
+  article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+  input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+  .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+  * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*font faces*/
+
+
+@font-face {
+  font-family: 'courier';
+  src: url('fonts/CourierNewPSMT.eot?#iefix') format('embedded-opentype'),  url('fonts/CourierNewPSMT.woff') format('woff'), url('fonts/CourierNewPSMT.ttf')  format('truetype'), url('fonts/CourierNewPSMT.svg#CourierNewPSMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+/*Code Begins */
+
+
+p {
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  background:url('images/logo.svg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  position:relative;
+  top:40px;
+  height:85px;
+  text-indent:-9000px;
+  margin-left:40px;
+
+}
+
+
+.blackBox {
+  height:650px;
+  width:375px;
+  z-index:2;
+  background:#231f20;
+  margin-left:75px;
+  margin-top:75px;
+}
+
+.blackBox h2 {
+  font-family:'plantin';
+  font-size:16px;
+  margin-left:40px;
+  margin-right:40px;
+  margin-top:0;
+  font-weight:normal;
+  color:#fff;
+  letter-spacing:2px;
+  font-smooth:2em;
+}
+
+.blackBox h2 {
+  background:url('images/empowering.svg');
+  height:85px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  text-indent:-9000px;
+  margin-top:25px;
+
+}
+
+
+.socialIcons i {
+  color:#fff;
+  font-size:30px;
+  padding-top:75px;
+  padding-right:15px;
+
+}
+
+.socialIcons {
+  margin-left:40px;
+  margin-bottom:10px;
+}
+
+.dividingLine {
+  border-bottom:2px solid #fff;
+  width:30px;
+  margin-left:40px;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+.address p, .contact p {
+  padding-top:10px;
+}
+
+.address, .contact {
+  font-family:courier;
+  color:#fff;
+  font-size:18px;
+  padding-top:10px;
+  margin-left:40px;
+}
+
+.address a, .contact a {
+  font-family:courier;
+  color:#fff;
+  font-size:18px;
+  padding-top:10px;
+  display:block;
+}
+
+
+
+
+/*video code begins*/
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('images/card04.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+
+
+
