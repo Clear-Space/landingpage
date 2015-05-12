@@ -181,7 +181,23 @@ h1 {
   .fullscreen-bg__video {
     display: none;
   }
+
+  
+  .blackBox {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+    margin-bottom:10%;
+    background-color:rgba(0,0,0, 0.5);
+  }
+
+
+
 }
+
+
+
 
 
 
