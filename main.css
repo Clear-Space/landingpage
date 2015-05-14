@@ -130,6 +130,12 @@ h1 {
   padding-top:25px;
 }
 
+.contact p {
+ padding:0;
+ margin:0;
+
+}
+
 .address a, .contact a {
   font-family:courier;
   color:#fff;
@@ -210,9 +216,16 @@ h1 {
     margin-bottom:10px;
   }
 
+
+
   .contact {
     padding-top:0;
   }
+
+  .contact p {
+padding-top:10px;
+
+}
 
 }
 
@@ -233,6 +246,8 @@ h1 {
 .address p {
   padding-bottom:3.5px;
 }
+
+
 
 .contact a {
   padding-top:5px;
