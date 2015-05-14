@@ -59,7 +59,7 @@ h1 {
   height:585px;
   width:375px;
   z-index:2;
-  background:#231f20;
+  background-color:rgba(0,0,0, 0.75);
   margin-left:75px;
   margin-top:75px;
 }
@@ -216,7 +216,7 @@ h1 {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 325px) {
 
 .socialIcons i {
   margin-top:10px;
