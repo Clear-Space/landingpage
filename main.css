@@ -56,7 +56,7 @@ h1 {
 
 
 .blackBox {
-  height:585px;
+  height:615px;
   width:375px;
   z-index:2;
   background-color:rgba(0,0,0, 0.75);
@@ -116,7 +116,7 @@ h1 {
 }
 
 .address p, .contact p {
-  padding-bottom:10px;
+  padding-bottom:3px;
 }
 
 .address, .contact {
@@ -140,7 +140,7 @@ h1 {
   font-family:courier;
   color:#fff;
   font-size:18px;
-  padding-top:10px;
+  padding-top:3px;
   display:block;
   text-decoration:none;
 }
