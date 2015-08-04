@@ -56,7 +56,7 @@ h1 {
 
 
 .blackBox {
-  height:615px;
+  height:640px;
   width:375px;
   z-index:2;
   background-color:rgba(0,0,0, 0.75);
@@ -90,6 +90,25 @@ h1 {
 
 }
 
+ .belowh2 {
+  color:#ffffff;
+  font-family:'courier';
+  font-weight:300;
+  letter-spacing:0.5px;
+  margin-left:40px;
+  margin-right:40px;
+  font-size:18px;
+
+}
+
+.belowh2 a {
+  color:#fff;
+}
+
+ .p2 {
+  margin-top:15px;
+  }
+
 
 .socialIcons i {
   color:#fff;
@@ -111,12 +130,16 @@ h1 {
   border-bottom:2px solid #fff;
   width:30px;
   margin-left:40px;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 .address p, .contact p {
   padding-bottom:3px;
+}
+
+.address p a {
+  padding-top:25px;
 }
 
 .address, .contact {
@@ -215,6 +238,12 @@ h1 {
     margin-top:10px;
     margin-bottom:10px;
   }
+
+  .belowh2 {
+    width:75%;
+  }
+
+ 
 
 
 
